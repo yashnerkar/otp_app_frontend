@@ -13,7 +13,7 @@ const OtpForm = ({ data }) => {
     success: false,
   });
   const { id } = useParams();
-  const contact = data.find((contact) => contact.id == id);
+  const contact = data.find((contact) => contact.id === id);
 
   const handleSubmit = (e) => {
     e.preventDefault();

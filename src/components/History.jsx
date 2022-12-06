@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../api/axios";
 import Nav from "./Nav";
 import moment from "moment";
 const History = ({ activeComponent }) => {
